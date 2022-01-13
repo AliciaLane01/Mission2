@@ -2,13 +2,6 @@
 //using the "Grade Calculator" form entries based on the weights listed in the syllabus.Use
 //jQuery selectors(i.e.the “$”) in your program.
 
-
-//Assignments 55 %
-//    Group Project 5 %
-//    Quizzes 10 %
-//    Exams 20 %
-//    INTEX 10 %
-
 //document.getElementById("calculate").addEventListener("click", function () {
 //    alert("hello1!");
 //})
@@ -18,11 +11,11 @@ $("#calculate").click(function () {
     var final_grade = '';
 
     //weight of categories in percent (i.e. 50 is 50%):
-    let assignments = 10;
-    let group_project = 20;
-    let quizzes = 20;
-    let exams = 25;
-    let intex = 25;
+    let assignments = 55;
+    let group_project = 5;
+    let quizzes = 10;
+    let exams = 20;
+    let intex = 10;
 
 
     final_perc = (($("#assigns").val() / 100) * assignments)
